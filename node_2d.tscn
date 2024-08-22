@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnt2ojh21fb73"]
+
+[ext_resource type="Script" path="res://collision_polygon_2d.gd" id="1_luw7f"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(618, 275)
+scale = Vector2(26.1897, 15.8047)
+script = ExtResource("1_luw7f")
